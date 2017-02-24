@@ -10,6 +10,11 @@
       <div class="author pull-right">
         <small>By: {{ author.name }}</small>
       </div>
+      {{#if repository.url}}
+      <a class="repo-link pull-right" href="{{ fixRepoUri repository.url }}">
+        <small>View Repo</small>
+      </a>
+      {{/if}}
     </div>
   </div>
   <div class="row">

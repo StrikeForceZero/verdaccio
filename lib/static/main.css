@@ -7318,6 +7318,9 @@ Original style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiac
 .body .content .entry .author {
   color: #666;
 }
+.body .content .entry .repo-link {
+  clear: right;
+}
 .body .content .entry .readme {
   font-size: 14px;
   margin-top: 10px;
